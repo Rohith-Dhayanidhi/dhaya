@@ -137,12 +137,11 @@
 //     console.log(num);
 // }
 
-// let a=[1,2,3,4,5,6,7,8,9,10]
+let a=1
 
-// for( let x of a){
-//     let num=x*5
-//     console.log(num);
-// }
+for( let i=0;i<=100;i++){
+   console.log(i);
+}
 
 // let bike=['Yamaha','RX','Honda','FZ','Duke','KTM','Splendour']
 
@@ -164,39 +163,39 @@
 // }
 // make(bike,'Honda')
 
-const products = [
-    { name: "apple", quantity: 2, price: 150, order: 2, category: "fruit" },
-    { name: "banana", quantity: 5, price: 50, order: 3, category: "fruit" },
-    { name: "orange", quantity: 8, price: 80, order: 1, category: "fruit" },
-    { name: "grape", quantity: 3, price: 120, order: 4, category: "fruit" },
-    { name: "mango", quantity: 6, price: 100, order: 2, category: "fruit" },
-    { name: "carrot", quantity: 10, price: 60, order: 3, category: "vegetable" },
-    { name: "potato", quantity: 15, price: 40, order: 1, category: "vegetable" },
-    { name: "tomato", quantity: 7, price: 70, order: 2, category: "vegetable" },
-    { name: "onion", quantity: 12, price: 30, order: 4, category: "vegetable" },
-    { name: "broccoli", quantity: 4, price: 90, order: 3, category: "vegetable" },
-  ];
+// const products = [
+//     { name: "apple", quantity: 2, price: 150, order: 2, category: "fruit" },
+//     { name: "banana", quantity: 5, price: 50, order: 3, category: "fruit" },
+//     { name: "orange", quantity: 8, price: 80, order: 1, category: "fruit" },
+//     { name: "grape", quantity: 3, price: 120, order: 4, category: "fruit" },
+//     { name: "mango", quantity: 6, price: 100, order: 2, category: "fruit" },
+//     { name: "carrot", quantity: 10, price: 60, order: 3, category: "vegetable" },
+//     { name: "potato", quantity: 15, price: 40, order: 1, category: "vegetable" },
+//     { name: "tomato", quantity: 7, price: 70, order: 2, category: "vegetable" },
+//     { name: "onion", quantity: 12, price: 30, order: 4, category: "vegetable" },
+//     { name: "broccoli", quantity: 4, price: 90, order: 3, category: "vegetable" },
+//   ];
 
-// let x=5 ,y=10
+// // let x=5 ,y=10
 
-//   function add(a,b){
-//     return c=a+b
+// //   function add(a,b){
+// //     return c=a+b
+// //   }
+// // add(x,y)
+// // console.log(c);
+
+// let age=8
+
+// function baby(input){
+//   if(input>20){
+//     return "He is an adult"
 //   }
-// add(x,y)
-// console.log(c);
-
-let age=8
-
-function baby(input){
-  if(input>20){
-    return "He is an adult"
-  }
-  else if(input>13){
-    return "He is teen"
-  }
-  else{
-  return "He is child"
-}
-}
-let x = baby(age)
-console.log(x);
+//   else if(input>13){
+//     return "He is teen"
+//   }
+//   else{
+//   return "He is child"
+// }
+// }
+// let x = baby(age)
+// console.log(x);
