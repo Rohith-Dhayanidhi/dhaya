@@ -137,11 +137,11 @@
 //     console.log(num);
 // }
 
-let a=1
+// let a=1
 
-for( let i=0;i<=100;i++){
-   console.log(i);
-}
+// for( let i=0;i<=100;i++){
+//    console.log(i);
+// }
 
 // let bike=['Yamaha','RX','Honda','FZ','Duke','KTM','Splendour']
 
